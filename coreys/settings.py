@@ -37,6 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    #MY_OWN_APPS
+    #3rd_PARTY_APPS
+    "django_browser_reload",
 ]
 
 MIDDLEWARE = [
