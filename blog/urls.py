@@ -6,6 +6,6 @@ from . import views
 #name for example: Blog-> Home view, Store-> Home view. if we name them both home it wouldn't work 
 urlpatterns = [
     path('',views.home, name='blog-home'),
-    path('about/',views.home, name='blog-about'),
+    path('about/',views.about, name='blog-about'),
 
 ]

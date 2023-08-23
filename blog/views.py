@@ -3,3 +3,6 @@ from django.http import HttpResponse
 # Create your views here.
 def home(request):
     return HttpResponse('<h1>Blog Home Page View</h1>')
+
+def about(request):
+    return HttpResponse('<h1>Blog About Page Function View</h1>')
