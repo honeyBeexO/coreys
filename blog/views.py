@@ -4,20 +4,38 @@ from django.http import HttpResponse
 # Create your views here.
 posts = [
     {
-        'title':'ChatGPT',
-        'content':'skhskjdhsjkhdhdskhdkjbdsdkjshd',
-        'author':'Corey'
-    },
-    {
-        'title':'ChatGPT+',
-        'content':'skhskjdhsjkhdhdskhdkjbdsdkjshd',
-        'author':'Amin'
-    },
-    {
-        'title':'AI revolution',
-        'content':'skhskjdhsjkhdhdskhdkjbdsdkjshd',
+        'title':'AI & Business',        
+        'date_posted':'August 27th, 2016',
+        'catergory':'ChatGPT+',
+        'content':'skhskjdhsjkhdhdskhdkjbdsdkjshd, kjhdkj iuyeds jsalij hd kdjhiuweh',
+        'short':'skhskjdhsjkhdhdskhdkjbdsdkjshd, kjhdkj iuyeds jsalij hd kdjhiuweh',
         'author':'Fouzia'
+    },
+    {
+        'title':'AI revolution',        
+        'date_posted':'August 27th, 2016',
+        'catergory':'ChatGPT+',
+        'content':'skhskjdhsjkhdhdskhdkjbdsdkjshd, kjhdkj iuyeds jsalij hd kdjhiuweh',
+        'short':'skhskjdhsjkhdhdskhdkjbdsdkjshd, kjhdkj iuyeds jsalij hd kdjhiuweh',
+        'author':'Amin the 3rd'
+    },
+        {
+        'title':'AI & Business',        
+        'date_posted':'August 27th, 2016',
+        'catergory':'ChatGPT+',
+        'content':'skhskjdhsjkhdhdskhdkjbdsdkjshd, kjhdkj iuyeds jsalij hd kdjhiuweh',
+        'short':'skhskjdhsjkhdhdskhdkjbdsdkjshd, kjhdkj iuyeds jsalij hd kdjhiuweh',
+        'author':'Fouzia'
+    },
+    {
+        'title':'AI revolution',        
+        'date_posted':'August 27th, 2016',
+        'catergory':'ChatGPT+',
+        'content':'skhskjdhsjkhdhdskhdkjbdsdkjshd, kjhdkj iuyeds jsalij hd kdjhiuweh',
+        'short':'skhskjdhsjkhdhdskhdkjbdsdkjshd, kjhdkj iuyeds jsalij hd kdjhiuweh',
+        'author':'Amin the 3rd'
     }
+    
 ]
 def home(request):
     #return HttpResponse('<h1>Blog Home Page View</h1>', data=[title])
