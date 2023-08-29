@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     #MY_OWN_APPS
+    'blog.apps.BlogConfig',
     #3rd_PARTY_APPS
     "django_browser_reload",
 ]
